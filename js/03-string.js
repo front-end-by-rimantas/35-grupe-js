@@ -4,6 +4,9 @@ STRING
 kabutes:
 - viengubos (')
 - dvygubos (")
+- backtick'as (`)
+
+Teksto simboliu kiekis: .length
 */
 
 const name = 'Petras';
@@ -32,3 +35,17 @@ const clientAge = 87;
 // Client Maryte is 87 years old.
 const clientSentence = 'Client ' + clientName + ' is ' + clientAge + ' years old.';
 console.log(clientSentence);
+
+const backtickClient = `Client ${clientName} is ${clientAge} years old.`;
+console.log(backtickClient);
+
+const n1 = 7;
+const n2 = 5;
+const rez = n1 + n2;
+// 7 + 5 = 12
+const ats = `${n1} + ${n2} = ${rez}`;
+console.log(ats);
+
+const abc = 'ab"cd\'e\\\\f';
+const abcDydis = abc.length;
+console.log(`Abeceles "${abc}" dydis yra ${abcDydis} simboliu.`);
