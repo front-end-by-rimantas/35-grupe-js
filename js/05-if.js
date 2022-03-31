@@ -19,3 +19,4 @@ if (a !== b) {
 } else {
     console.log('A nera lygu B');
 }
+
