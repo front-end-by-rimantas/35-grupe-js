@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./js/10-reverse-string.js",
+    "dev": "nodemon ./js/11-liekana.js",
     "nd": "nodemon ./js/nd.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
