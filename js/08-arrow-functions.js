@@ -33,3 +33,8 @@ console.log(r4);
 const kvadratu = a => a * a;
 const r5 = kvadratu(pirmas);
 console.log(r5);
+
+
+const tekstas = 'Labas rytas';
+const pirmaRaide = s => s[0];
+console.log(pirmaRaide(tekstas));
