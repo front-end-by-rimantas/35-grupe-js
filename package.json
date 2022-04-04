@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./js/07-loops.js",
+    "dev": "nodemon ./js/08-arrow-functions.js",
     "nd": "nodemon ./js/nd.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
