@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./js/12-daugyba.js",
+    "dev": "nodemon ./js/13-numSize.js",
     "nd": "nodemon ./js/nd.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
