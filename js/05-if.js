@@ -87,3 +87,22 @@ if (arYraKrituliu) {
         console.log('Be striukes neapsieisi ❄');
     }
 }
+
+
+const akys = 'melynos';
+const plaukai = 'tamsus';
+const amzius = 20;
+
+if ((akys === 'melynos' || plaukai === 'tamsus') && amzius >= 20) {
+    console.log('Eisiu i pasimatyma');
+} else {
+    console.log('Pasimatymo nebus');
+}
+
+const priemone = 'dviratis';
+
+if (priemone === 'dviratis' || priemone === 'motoroleris' || priemone === 'automobilis') {
+    console.log('Kelione nusimato');
+} else {
+    console.log('Keliones nenusimato');
+}
