@@ -47,4 +47,5 @@ console.log(bigNum([1, 2, 3, 'x']), '-->', 3);
 console.log(bigNum([1, 2, 'x', 3]), '-->', 3);
 console.log(bigNum([1, 'x', 2, 3]), '-->', 3);
 console.log(bigNum(['x', 1, 2, 3]), '-->', 3);
+console.log(bigNum([true, -1]), '-->', -1);
 
